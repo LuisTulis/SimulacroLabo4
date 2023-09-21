@@ -1,0 +1,69 @@
+/* Estilo para el fondo */
+body {
+  background-color: #FAD02E; /* Color amarillo brillante */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente legible */
+}
+
+/* Estilos para los encabezados */
+h1 {
+  color: #6bb0ff; /* Color rosa suave */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto suave */
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra de la tabla suave */
+}
+
+th {
+  text-align: center;
+  background-color: #A24D6B; /* Color azul cielo */
+  color: #333;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  background-color: #C0677D; /* Color rosa claro */
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+/* Estilo para las filas impares (alternando colores) */
+tr:nth-child(odd) {
+  background-color: #A8E6CF; /* Color verde claro */
+}
+
+/* Estilo para las imágenes de portada */
+td:last-child {
+  text-align: center;
+}
+
+/* Ajustar el tamaño de las imágenes de portada */
+td:last-child img {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px; /* Ancho fijo de 100px */
+  height: 100px; /* Altura fija de 100px */
+  object-fit: cover; /* Mantener la relación de aspecto y recortar según sea necesario */
+  border: 1px solid #0f0101; /* Borde rosa suave */
+  border-radius: 10px; /* Borde redondeado */
+  transition: transform 0.3s ease-in-out; /* Efecto de transformación */
+}
+
+/* Efecto de crecimiento al pasar el mouse sobre las imágenes */
+td:last-child img:hover {
+  transform: scale(1.5);
+  filter: brightness(1.5); /* Aumentar el brillo al pasar el mouse */
+}
+
+.fila-clicable {
+  cursor: pointer; /* Cambiar el cursor a una mano cuando se pasa sobre la fila */
+}

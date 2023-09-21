@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Aquí puedes agregar tus enlaces a hojas de estilo CSS, scripts, y otros recursos -->
+    <link rel="stylesheet" type="text/css" href="./busqueda.component.css">
+</head>
+<body>
+    <!-- Sección de la tabla grande -->
+    <section class="tabla-grande">
+        <app-tabla-pelicula [listaPeliculas]="peliculas" (eventoPeliculaSeleccionada)="onPeliculaSeleccionada($event)"></app-tabla-pelicula>
+    </section>
+
+    <!-- Sección de los tres módulos divididos -->
+    <section class="modulos-divididos">
+        <!-- Módulo 1 -->
+        <div class="modulo">
+            <!-- Contenido del módulo 1 -->
+        </div>
+
+        <!-- Módulo 2 -->
+        <div class="modulo">
+            <app-detalle-pelicula [peliculaSeleccionada]="peliculaSeleccionada"></app-detalle-pelicula>
+            <!-- Contenido del módulo 2 -->
+        </div>
+
+        <!-- Módulo 3 -->
+        <div class="modulo">
+            <!-- Contenido del módulo 3 -->
+        </div>
+    </section>
+
+    <!-- Otras secciones o contenido adicional pueden ir aquí -->
+
+    <!-- Aquí puedes agregar tus scripts JavaScript si es necesario -->
+
+</body>
+</html>

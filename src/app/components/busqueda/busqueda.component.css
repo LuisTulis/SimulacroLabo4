@@ -1,0 +1,74 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #813757; /* Color de fondo gris claro */
+    margin: 100px; /* Margen exterior alrededor de la página */
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    background-color: #ffffff; /* Color de fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-radius: 5px;
+    margin: 20px; /* Margen exterior alrededor del contenido */
+  }
+  
+  /* Estilo de la sección de la tabla grande */
+  .tabla-grande {
+    padding: 20px;
+  }
+  
+  /* Estilo de la sección de los módulos divididos */
+  .modulos-divididos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Estilo de cada módulo individual */
+  .modulo {
+    flex: 1;
+    background-color: #A24D6B; /* Color de fondo blanco */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-radius: 5px;
+  }
+  
+  /* Estilo de los enlaces */
+  a {
+    color: #007bff; /* Color de enlace azul */
+    text-decoration: none;
+  }
+  
+  /* Estilo de los enlaces cuando se colocan sobre ellos */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo de encabezados si los tienes */
+  h1, h2, h3 {
+    color: #333; /* Color de texto principal */
+  }
+  
+  /* Estilo de la tabla dentro de la sección de la tabla grande */
+  .tabla-grande table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-grande th, .tabla-grande td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borde ligero */
+    text-align: left;
+  }
+  
+  .tabla-grande th {
+    background-color: #007bff; /* Color de fondo azul para encabezados */
+    color: #fff; /* Color de texto blanco para encabezados */
+  }
+  
+  /* Añade más estilos según sea necesario para personalizar tu página */
+  

@@ -1,0 +1,77 @@
+/* Estilo para el fondo */
+body {
+    background-color: #FAD02E; /* Color amarillo brillante */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente legible */
+  }
+  
+  /* Estilos para la sección de detalles de la película */
+  .detalle-pelicula {
+    margin: 20px; /* Margen alrededor del contenido */
+    padding: 20px; /* Espaciado interno */
+    background-color: #C0677D; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  }
+  
+  /* Estilo para el título */
+  h2 {
+    color: #6bb0ff; /* Color azul suave */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto suave */
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Estilos para los detalles de la película */
+  .detalle-pelicula div {
+    margin-bottom: 10px; /* Espaciado entre elementos */
+  }
+  
+  /* Estilo para los encabezados (por ejemplo, "Nombre" y "Tipo") */
+  .detalle-pelicula strong {
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilo para el tipo */
+  .tipo-y-fecha {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para la fecha de estreno */
+  .fecha-estreno {
+    margin-left: auto; /* Coloca la fecha en el margen derecho */
+  }
+  
+  /* Estilo para la imagen de portada */
+  .detalle-pelicula img {
+    max-width: 200%; /* Ajustar la imagen al ancho del contenedor */
+    max-height: 200px;
+    object-fit: cover; /* Mantener la relación de aspecto y recortar según sea necesario */
+    display: block; /* Eliminar el espacio en blanco debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    border: 1px solid #0f0101; /* Borde rosa suave */
+    border-radius: 10px; /* Borde redondeado */
+    transition: transform 0.3s ease-in-out; /* Efecto de transformación */
+  }
+
+  
+
+
+  .detalle-pelicula img:hover
+  {
+    transform: scale(1.2);
+    filter: brightness(1.05); /* Aumentar el brillo al pasar el mouse */
+  }
+
+  .nombre-pelicula {
+    text-align: center; /* Centrar el texto horizontalmente */
+    font-weight: bold; /* Hacer el texto en negrita */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    display: block; /* Hacer que el elemento sea un bloque para centrarlo verticalmente */
+    margin: 0 auto; /* Centrar el bloque horizontalmente */
+  }
+  
+  
+  
+  

@@ -1,0 +1,21 @@
+
+<link rel="stylesheet" type="text/css" href="./tabla-pelicula.component.css">
+
+<table>
+    <thead>
+        <th style="text-align: center;">Nombre</th>
+        <th style="text-align: center;">Tipo</th>
+        <th style="text-align: center;">Fecha de estreno</th>
+        <th style="text-align: center;">Cantidad de público</th>
+        <th style="text-align: center;">Foto de portada</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pelicula of listaPeliculas" (click)="seleccionarPelicula(pelicula)"  class="fila-clicable">
+            <td>{{ pelicula.nombre }}</td>
+            <td>{{ pelicula.tipo }}</td>
+            <td>{{ pelicula.fechaEstreno | date: 'dd/MM/yyyy' }}</td>
+            <td>{{ pelicula.cantPublico }}</td>
+            <td><img src="{{ pelicula.fotoPortada }}" alt="Foto de portada"></td>
+        </tr>
+    </tbody>
+</table>
